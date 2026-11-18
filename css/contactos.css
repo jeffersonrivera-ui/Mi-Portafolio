@@ -1,0 +1,126 @@
+
+.contactos {
+    background: #FFFFFF;
+}
+
+.informacion-contacto {
+    background: #0F172A;
+    color: white;
+    padding: 40px 30px;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.informacion-contacto h3 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.informacion-contacto > p {
+    color: #CBD5E1;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-bottom: 35px;
+}
+
+.dato-contacto {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 28px;
+}
+
+.dato-contacto > i {
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    background: rgba(56, 189, 248, 0.15);
+    color: #38BDF8;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.dato-contacto div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dato-contacto strong {
+    font-size: 14px;
+}
+
+.dato-contacto span {
+    font-size: 13px;
+    color: #94A3B8;
+}
+
+
+.formulario {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    padding: 35px;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.formulario h3 {
+    color: #0F172A;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.formulario .form-label {
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formulario .form-control {
+    border: 1px solid #CBD5E1;
+    border-radius: 9px;
+    padding: 12px 14px;
+    font-size: 14px;
+    background: white;
+    transition: 0.3s ease;
+}
+
+.formulario .form-control:focus {
+    border-color: #38BDF8;
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.12);
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.btn-enviar {
+    background: #0EA5E9;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 13px 22px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background: #0284C7;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 576px) {
+
+    .informacion-contacto,
+    .formulario {
+        padding: 25px 20px;
+    }
+
+    .btn-enviar {
+        width: 100%;
+    }
+
+}
